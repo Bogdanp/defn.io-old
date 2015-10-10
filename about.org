@@ -1,0 +1,18 @@
+---
+title: Hi!
+---
+
+You've reached Bogdan's personal website. Welcome!
+
+I've been working as a professional software engineer for the past 5
+years. In that time span I've worked on a variety of problems ranging
+from low-level video streaming libraries to real time analytics
+systems, device fingerprinting and landing page optimization software.
+
+I currently work at [[https://leadpages.net][LeadPages]] as a Principal Engineer.
+
+In my free time I contribute to and maintain various open source
+projects which you can find on [[https://github.com/Bogdanp][my Github page]].
+
+If you want to get in touch, [[mailto:bogdan@defn.io][e-mail]] me. You might also find me on
+[[https://freenode.net/][freenode]] every now and then under the nick =bogdanp=.
