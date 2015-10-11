@@ -5,9 +5,9 @@ title: Hi!
 You've reached Bogdan's personal website. Welcome!
 
 I've been working as a professional software engineer for the past 5
-years. In that time span I've worked on a variety of problems ranging
-from low-level video streaming libraries to real time analytics
-systems, device fingerprinting and landing page optimization software.
+years. In that time span I have worked on a variety of problems
+ranging from low-level video streaming to real time analytics, device
+fingerprinting and landing page optimization.
 
 I currently work at [[https://leadpages.net][LeadPages]] as a Principal Engineer.
 
