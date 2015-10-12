@@ -14,7 +14,13 @@ how you can enhance it further.
    that are available to you based on the current selection, narrowing
    down to the most relevant ones as you type to expand said
    selection.  You can find a brief demonstration of this
-   functionality [[https://asciinema.org/a/27740][here]].
+   functionality below.
+
+   #+BEGIN_HTML
+     <center>
+        <script type="text/javascript" src="https://asciinema.org/a/27740.js" id="asciicast-27740" async></script>
+     </center>
+   #+END_HTML
 
    Turn it on by calling =ido-mode=.
 
