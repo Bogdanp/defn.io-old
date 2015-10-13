@@ -23,6 +23,7 @@ main = hakyll $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
@@ -39,6 +40,20 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
+
+    create ["atom.xml"] $ do
+        route idRoute
+        compile $
+          loadAllSnapshots "posts/*" "content"
+            >>= fmap (take 10) . recentFirst
+            >>= renderAtom feedConfiguration feedCtx
+
+    create ["rss.xml"] $ do
+        route idRoute
+        compile $
+          loadAllSnapshots "posts/*" "content"
+            >>= fmap (take 10) . recentFirst
+            >>= renderRss feedConfiguration feedCtx
 
     match "index.html" $ do
         route idRoute
@@ -61,3 +76,19 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+
+feedCtx :: Context String
+feedCtx =
+    postCtx `mappend`
+    bodyField "description"
+
+
+feedConfiguration :: FeedConfiguration
+feedConfiguration = FeedConfiguration
+  { feedTitle = "defn.io"
+  , feedDescription = ""
+  , feedAuthorName = "Bogdan Popa"
+  , feedAuthorEmail = "bogdan@defn.io"
+  , feedRoot = "http://defn.io"
+  }

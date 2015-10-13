@@ -15,5 +15,6 @@ In my free time I contribute to and maintain various open source
 projects which you can find on [[https://github.com/Bogdanp][my Github page]].
 
 If you want to get in touch, [[mailto:bogdan@defn.io][e-mail]] me. You might also find me on
-[[https://freenode.net/][freenode]] every now and then under the nick =bogdanp=. You can find out
-about new posts by following me on [[https://twitter.com/Bogdanp][Twitter]] or [[https://plus.google.com/u/0/+BogdanPopaPaul][Google+]].
+[[https://freenode.net/][freenode]] every now and then under the nick =bogdanp=. Find out about
+new posts by following me on [[https://twitter.com/Bogdanp][Twitter]] or [[https://plus.google.com/u/0/+BogdanPopaPaul][Google+]] or by subscribing to
+the [[http://defn.io/rss.xml][RSS]] or [[http://defn.io/atom.xml][Atom]] feed.
