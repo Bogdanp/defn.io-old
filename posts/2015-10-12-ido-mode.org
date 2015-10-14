@@ -172,7 +172,7 @@ how you can enhance it further.
 
     Note that =ido-ubiquitous= does not turn ido completion on for
     packages that come with built in ido support (even if it is not
-    turned out by default) like Magit and Org mode.  I have included a
+    turned on by default) like Magit and Org mode.  I have included a
     section below on how you can turn ido on for both of those modes.
 
 *** ido-vertical-mode
