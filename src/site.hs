@@ -13,7 +13,7 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match "about.org" $ do
+    match "about.md" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
