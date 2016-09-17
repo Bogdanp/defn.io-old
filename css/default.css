@@ -20,7 +20,7 @@ div#logo {
 }
 
 div#logo a {
-    color: darkred;
+    color: #BD3C35;
     font-size: 2em;
     font-weight: normal;
     text-decoration: none;
@@ -45,7 +45,7 @@ div#header #navigation a:first-child {
 }
 
 div#header #navigation a:hover {
-    color: darkred;
+    color: #206BB0;
 }
 
 div#content {
@@ -103,6 +103,15 @@ div.sourceCode {
 
 pre {
     font-family: "fira mono", inconsolata, consolas, monospace;
+}
+
+div.projects table {
+  width: 100% !important;
+
+}
+
+div.projects table td:nth-child(2) {
+  width: 40% !important;
 }
 
 .info {
