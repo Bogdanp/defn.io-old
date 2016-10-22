@@ -13,6 +13,7 @@ title: Projects
 | [elm-cookiecutter][cookiecutter] | A cookiecutter template for Elm apps.                 | ~stable~       |
 | [elm-datepicker][datepicker]     | A reusable datepicker for Elm.                        | ~stable~       |
 | [elm-mode][elmmode]              | Emacs mode for Elm.                                   | ~stable~       |
+| [elm-querystring][querystring]   | A library for working with querystrings in Elm.       | ~stable~       |
 | [elm-route][route]               | A type-safe routing library for Elm.                  | ~stable~       |
 | [elm-time][time]                 | A pure Elm date and time library.                     | ~stable~       |
 | [markii][markii]                 | A development-mode error handler for Python web apps. | ~stable~       |
@@ -45,5 +46,6 @@ title: Projects
 [pyrepl]: https://github.com/Bogdanp/pyrepl.vim
 [pytest]: https://github.com/Bogdanp/py-test.el
 [rbrepl]: https://github.com/Bogdanp/rbrepl.vim
+[querystring]: https://github.com/Bogdanp/elm-querystring
 [route]: https://github.com/Bogdanp/elm-route
 [time]: https://github.com/Bogdanp/elm-time
