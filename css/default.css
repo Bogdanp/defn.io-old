@@ -106,12 +106,17 @@ pre {
 }
 
 div.projects table {
-  width: 100% !important;
-
+  table-layout: fixed !important;
+  white-space: nowrap;
+  width: 350px !important;
 }
 
-div.projects table td:nth-child(2) {
-  width: 20% !important;
+div.projects table td {
+  white-space: nowrap;
+}
+
+div.projects table th:nth-child(1) {
+  width: 150px;
 }
 
 .info {

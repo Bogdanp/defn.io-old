@@ -2,7 +2,20 @@
 title: Projects
 ---
 
-### Current
+### SAAS
+
+<div class="projects">
+| Project                       | Description                                                    |
+| ---                           | ---                                                            |
+| [Free Invoice Generator][fig] | Easy to use and free Invoice creation software.                |
+| [ValueAdded][valueadded.io]   | A developer-focused VAT API for companies operating in the EU. |
+</div>
+
+[fig]: https://free-invoice-generator.com
+[valueadded.io]: https://valueadded.io
+
+
+### Current libraries and tools
 
 <div class="projects">
 | Project                    | Description                                           |
@@ -19,9 +32,11 @@ title: Projects
 | [pyrepl][pyrepl]           | Run a Python REPL inside Vim.                         |
 | [quicksilver][quicksilver] | Find files fast in Vim.                               |
 | [rbrepl][rbrepl]           | Run a Ruby REPL inside Vim.                           |
+| [valueadded][valueadded]   | A Python library for computing VAT.                   |
 </div>
 
-### Inactive
+
+### Inactive libraries and tools
 
 <div class="projects">
 | Project                          | Description                                         |
@@ -60,3 +75,4 @@ title: Projects
 [repos]: https://github.com/Bogdanp/repositories
 [route]: https://github.com/Bogdanp/elm-route
 [time]: https://github.com/Bogdanp/elm-time
+[valueadded]: https://github.com/valueadded/valueadded-python
