@@ -21,6 +21,7 @@ title: Projects
 | Project                    | Description                                           |
 | ---                        | ---                                                   |
 | [anom][anom]               | An object mapper for the AppEngine Datastore in Go.   |
+| [anom-py][anom-py]         | An object mapper for Cloud Datastore in Python 3.6+.  |
 | [browser-connect][bc]      | Live browser interaction for Vim.                     |
 | [cedar-mode][cedar-mode]   | Emacs mode for cedar.                                 |
 | [cedar][cedar]             | A web service definition format and code generator.   |
@@ -54,6 +55,7 @@ title: Projects
 
 
 [anom]: https://github.com/Bogdanp/anom
+[anom-py]: https://github.com/Bogdanp/anom-py
 [ast]: https://github.com/Bogdanp/elm-ast
 [bc]: https://github.com/Bogdanp/browser-connect.vim
 [cedar-mode]: https://github.com/Bogdanp/cedar-mode
