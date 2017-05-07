@@ -8,10 +8,12 @@ title: Projects
 | Project                       | Description                                                    |
 | ---                           | ---                                                            |
 | [Free Invoice Generator][fig] | Easy to use and free Invoice creation software.                |
+| [SmsCatFacts][smscatfacts]    | Cat facts prank as a service.                                  |
 | [ValueAdded][valueadded.io]   | A developer-focused VAT API for companies operating in the EU. |
 </div>
 
 [fig]: https://free-invoice-generator.com
+[smscatfacts]: https://smscatfacts.com
 [valueadded.io]: https://valueadded.io
 
 
