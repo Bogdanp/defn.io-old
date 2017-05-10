@@ -13,12 +13,13 @@ I currently work at [Leadpages][lp] as a Principal Engineer. In my
 free time I contribute to and maintain various open source projects
 which you can find [here](/projects.html) and on [my GitHub page][gh].
 
-If you want to get in touch, [email][em] me, or send me
-an [encrypted message][kb].  Find out about new posts by subscribing
-to the [Atom][feed] feed.
+If you want to get in touch, [email][em] me, or send me an
+[encrypted message][kb].  Find out about new posts by subscribing
+to the [Atom][feed] feed or follow me on twitter [@bogdanp][twitter].
 
 [lp]: https://leadpages.net
 [gh]: https://github.com/Bogdanp
 [em]: mailto:bogdan@defn.io
 [kb]: https://keybase.io/bogdanp
 [feed]: http://defn.io/atom.xml
+[twitter]: https://twitter.com/bogdanp
