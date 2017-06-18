@@ -24,6 +24,7 @@ title: Projects
 | ---                        | ---                                                   |
 | [anom][anom-py]            | An object mapper for Cloud Datastore in Python 3.6+.  |
 | [crontab][crontab]         | A crontab spec parser for Scala.                      |
+| [dramatiq][dramatiq]       | A background task processing library for Python 3.6+. |
 | [markii][markii]           | A development-mode error handler for Python web apps. |
 | [modviz][modviz]           | Visualize your module dependency graph in Python.     |
 | [mold][mold]               | A fast templating engine for Python.                  |
@@ -68,6 +69,7 @@ title: Projects
 [cookiecutter]: https://github.com/Bogdanp/elm-cookiecutter
 [crontab]: https://github.com/Bogdanp/crontab
 [datepicker]: https://github.com/Bogdanp/elm-datepicker
+[dramatiq]: https://github.com/Bogdanp/dramatiq
 [elmmode]: https://github.com/jcollard/elm-mode
 [generate]: https://github.com/Bogdanp/elm-generate
 [icm]: https://github.com/Bogdanp/ido-clever-match
